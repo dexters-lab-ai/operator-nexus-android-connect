@@ -1,0 +1,33 @@
+﻿# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Temporary directories
+/tmp
+/temp
